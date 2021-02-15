@@ -1,0 +1,26 @@
+/* OBJECTS */
+.o-text-align-left {
+  text-align: left; }
+
+.o-text-align-right {
+  text-align: right; }
+
+.o-text-align-center {
+  text-align: center; }
+
+.o-text-align-justify {
+  text-align: justify; }
+
+/* END OBJECTS */
+/* UTILITIES */
+.u-none {
+  display: none !important; }
+
+.u-uppercase {
+  text-transform: uppercase !important; }
+
+@media print {
+  .u-none\@print {
+    display: none; } }
+
+/* END UTILITIES */

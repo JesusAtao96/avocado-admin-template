@@ -1,5 +1,5 @@
-# Avocado Admin Template
+# 🥑 Avocado Admin Template
 
-Plain admin template with SASS/SCSS, BEMIT, CSS GRID
+Admin template with plain HTML, SASS/SCSS, BEMIT, CSS GRID 🥑
 
 ## Welcome! 👋👋👋
