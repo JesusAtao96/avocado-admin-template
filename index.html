@@ -6,16 +6,63 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Livvic:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" /> -->
+
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Avocado Admin Template</title>
   </head>
 
   <body>
-    <h1>Working... 🔨</h1>
+    <div class="c-dashboard">
+      <header class="c-header">
+        <div class="c-header__toolbar">
+          <h1 class="c-header__title">
+            <i class="c-header__icon fas fa-home"></i>
+            Home
+          </h1>
+          <a href="javascript:void(0)" class="c-header__logout">
+            Cerrar Sesión
+          </a>
+        </div>
+      </header>
+      <nav id="nav" class="c-nav">
+        <div class="c-nav__header">
+          <h1 class="c-nav__logo">Avocado</h1>
+          <button class="c-nav__toggle" onclick="onToggle()">
+            <i class="c-nav__icon fas fa-bars"></i>
+          </button>
+        </div>
+        <ul class="c-nav__menu">
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="#" title="Home">
+              <span class="c-nav__text">Home</span>
+              <i class="c-nav__icon fas fa-home"></i>
+            </a>
+          </li>
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="#" title="Dashboard">
+              <span class="c-nav__text">Dashboard</span>
+              <i class="c-nav__icon fas fa-clock"></i>
+            </a>
+          </li>
+          <li class="c-nav__item">
+            <a class="c-nav__link" href="#" title="Table">
+              <span class="c-nav__text">Table</span>
+              <i class="c-nav__icon fas fa-users"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <main class="c-dashboard__main">
+
+      </main>
+    </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
