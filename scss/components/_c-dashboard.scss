@@ -4,9 +4,9 @@
     grid-template-rows: $header-height 1fr;
     grid-template-columns: min-content 1fr;
 
-    @include md() {
+    /* @include md() {
         grid-template-columns: $nav-min-width 1fr;
-    }
+    } */
 
     &__main {
         flex: 1;

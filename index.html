@@ -21,10 +21,14 @@
     <div class="c-dashboard">
       <header class="c-header">
         <div class="c-header__toolbar">
-          <h1 class="c-header__title">
-            <i class="c-header__icon fas fa-home"></i>
-            Home
-          </h1>
+          <div class="c-header__nav">
+            <button class="c-header__toggle" onclick="onToggle()">
+              <i class="c-nav__icon fas fa-bars"></i>
+            </button>
+            <h1 class="c-header__title">
+              Home
+            </h1>
+          </div>
           <a href="javascript:void(0)" class="c-header__logout">
             Cerrar Sesión
           </a>
@@ -32,7 +36,7 @@
       </header>
       <nav id="nav" class="c-nav">
         <div class="c-nav__header">
-          <h1 class="c-nav__logo">Avocado</h1>
+          <h1 id="logo" class="c-nav__logo">Avocado</h1>
           <button class="c-nav__toggle" onclick="onToggle()">
             <i class="c-nav__icon fas fa-bars"></i>
           </button>
